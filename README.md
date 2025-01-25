@@ -17,4 +17,4 @@ For further info see [./upgrading_flutter_projects.md](upgrading_flutter_project
 
 #### Last update
 
-_PS Gray, 13 Jan 2025_
+_PS Gray, 26 Jan 2025_
