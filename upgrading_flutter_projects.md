@@ -3,7 +3,7 @@
 ### Basic Approach
 
 - Ensure the Flutter development environment is up to date.
-- Create a new Flutter project in a new folder using the original's naming properties.
+- Create a new Flutter project in a new folder using the original's names.
 - Migrate the old project's assets, code, permissions & keys, etc. to the new project.
 - Deal with remaining issues.
 
@@ -16,10 +16,10 @@
 1. Project folder name
 2. Project Name
     - _`name`_ property in _`pubspec.yaml`_
-    - Often the same as the _project's root folder name_
+    - Often the same as the _project's (root) folder name_
       - If _project folder name_ != _`name`_ then I would use the  
-      _project folder name_ as Project Name to create the project,  
-      and rename the _project folder_ afterwards.
+        _`name`_ as Project Name to create the project,  
+      and maybe rename the _project folder_ afterwards.
 3. Project Description
     - _`description`_ property in _`pubspec.yaml`_
 4. Project Organization  
@@ -51,9 +51,10 @@ Use the flutter script command: _`flutter upgrade`_
 
 ---
 
-#### XXXX Change the new project's Name XXXX
+#### XXXX Change the new project's Name to match the original project XXXX
 
-Not necessary in this Migration method that creates a new Flutter app using the old _`name`_, _`description`_ & _`organization`_
+Not necessary in this migration method as it creates a new Flutter app  
+using the original project's _`name`_, _`description`_ & _`organization`_
 
 ---
 
