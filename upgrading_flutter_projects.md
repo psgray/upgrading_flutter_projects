@@ -124,18 +124,28 @@ Good luck!
 ---
 
 #### Addenda
-FWIW, I make further adjustments the a new Flutter Project:  
-I am using the OpenLogic JDK 22 as the default Project SDK  
+FWIW, I make further adjustments to a new Flutter Project:  
+I OpenLogic JDK 22 as the Project SDK  
 - with Flutter 3.27.2
 - Android SDK version 35.0.1  
 - Android Studio 2024.2
 
 and replace the following in the new project:
-- _`gradle-8.3-all.zip`_  to  _`gradle-8.12-all.zip`_ in _`gradle-wrapper.properties`_ for Java SDK and Gradle compatibility  
-- _`8.1.0`_ to _`8.8.0`_  in _`android\settings.gradle`_ for com.android.application  
-- _`1.8.22`_ to _`2.0.20`_ in _`android\settings.gradle`_ for kotlin version  
-- _`VERSION_1_8`_ to _`VERSION_17`_ in _`android\app\build.gradle`_ for Deprecated Java 1.8  
-- _`flutter.ndkVersion`_ to _`ndkVersion = "27.0.12077973"`_ in _`android\app\build.gradle`_ for package:integration_test/integration_test.dart compatibility
+- _`gradle-8.3-all.zip`_  to  _`gradle-8.12-all.zip`_  
+  - in _`gradle-wrapper.properties`_ 
+  - for Java SDK and Gradle compatibility  
+- _`8.1.0`_ to _`8.8.0`_  
+  - in _`android\settings.gradle`_ 
+  - for com.android.application  
+- _`1.8.22`_ to _`2.0.20`_ 
+  - in _`android\settings.gradle`_ 
+  - for kotlin version  
+- _`VERSION_1_8`_ to _`VERSION_17`_ 
+  - in _`android\app\build.gradle`_ 
+  - for Deprecated Java 1.8  
+- _`flutter.ndkVersion`_ to _`ndkVersion = "27.0.12077973"`_ 
+  - in _`android\app\build.gradle`_ 
+  - for _`package:integration_test`_ compatibility
 
 ---
 ##### References:
