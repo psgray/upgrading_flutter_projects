@@ -18,8 +18,7 @@
     - _`name`_ property in _`pubspec.yaml`_
     - Often the same as the _project's (root) folder name_
       - If _project folder name_ != _`name`_ then I would use the  
-        _`name`_ as Project Name to create the project,  
-      and maybe rename the _project folder_ afterwards.
+        _project folder name_ as Project Name to create the project.
 3. Project Description
     - _`description`_ property in _`pubspec.yaml`_
 4. Project Organization  
